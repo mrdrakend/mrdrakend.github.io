@@ -24,25 +24,28 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="bgimg"></div>
 </nav>
 
-<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="w3-sidebar w3-teal w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-teal w3-xxxlarge w3-display-topright" style="padding:0 12px;">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-teal w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-teal" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="STT.html" class="w3-bar-item w3-button w3-padding-large w3-white">Início</a>
     <a href="QSE.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Quem sou eu?</a>
     <a href="MCV.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Currículo</a>
     <a href="DSB.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Dashboards</a>
     <a href="https://github.com/mrdrakend" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">GitHub</a>
   </div>
-</nav>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="STT.html" class="w3-bar-item w3-button w3-padding-large">Dashboards</a>
+    <a href="QSE.html" class="w3-bar-item w3-button w3-padding-large">Currículo</a>
+    <a href="MCV.html" class="w3-bar-item w3-button w3-padding-large">Dashboards</a>
+    <a href="https://github.com/mrdrakend" class="w3-bar-item w3-button w3-padding-large">GitHub</a>
+  </div>
+</div>
 
 <!-- Page Content -->
 <div class="w3-main w3-padding-large" style="margin-left:40%">
-
-  <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
 
   <!-- Header -->
   <header class="w3-container w3-center" style="padding:128px 10px" id="home">
@@ -226,17 +229,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- END PAGE CONTENT -->
 </div>
 
-<script>
-// Open and close sidebar
-function openNav() {
-  document.getElementById("mySidebar").style.width = "60%";
-  document.getElementById("mySidebar").style.display = "block";
-}
 
-function closeNav() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
 
 </body>
 </html>
