@@ -18,18 +18,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-teal w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-teal" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="QSE.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Who am I?</a>
-    <a href="MCV.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resumè</a>
-    <a href="DSB.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Dashboards</a>
+    <a href="STTENUS.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="QSEENUS.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Who am I?</a>
+    <a href="MCVENUS.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resumè</a>
+    <a href="DSBENUS.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Dashboards</a>
     <a href="https://github.com/mrdrakend" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">GitHub</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="QSE.html" class="w3-bar-item w3-button w3-padding-large">Who am I?</a>
-    <a href="MCV.html" class="w3-bar-item w3-button w3-padding-large">Resumè</a>
-    <a href="DSB.html" class="w3-bar-item w3-button w3-padding-large">Dashboards</a>
+    <a href="QSEENUS.html" class="w3-bar-item w3-button w3-padding-large">Who am I?</a>
+    <a href="MCVENUS.html" class="w3-bar-item w3-button w3-padding-large">Resumè</a>
+    <a href="DSBENUS.html" class="w3-bar-item w3-button w3-padding-large">Dashboards</a>
     <a href="https://github.com/mrdrakend" class="w3-bar-item w3-button w3-padding-large">GitHub</a>
   </div>
 </div>
@@ -39,7 +39,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <h1 class="w3-margin w3-jumbo">Hello!</h1>
   <p class="w3-xlarge">Welcome to my professional site!</p>
   <p class="w3-large">You can start using the button bellow or the navigation bar on the top!</p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a href="QSE.html">Who am I?</a></button>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a href="QSEENUS.html">Who am I?</a></button>
 </header>
 
 <!-- Footer -->
